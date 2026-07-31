@@ -1,7 +1,24 @@
 aid: nextcure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nextcure.png
 name: Nextcure
-description: Nextcure is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: NextCure, Inc. (NASDAQ NXTC) is a clinical-stage biopharmaceutical company focused on
+  discovering and developing novel immunomedicines to treat cancer and other immune-related diseases.
+  The company uses its FIND-IO platform to identify and characterize immunomodulatory targets and
+  biological pathways, advancing a pipeline of immunotherapy drug candidates. NextCure surfaced in the
+  API Evangelist network as a portfolio company of canaan-partners. Enrichment probe (2026-07-20) found
+  no public developer API, API documentation, or developer portal; this is a biopharmaceutical R&D
+  organization with no programmatic API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/nextcure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biopharmaceutical
+- Immunotherapy
+- Oncology
+- Healthcare
+- Drug Development
+- Biotechnology
 apis: []
+common:
+- type: Website
+  url: https://www.nextcure.com
+- type: InvestorRelations
+  url: https://ir.nextcure.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
